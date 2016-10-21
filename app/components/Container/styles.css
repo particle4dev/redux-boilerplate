@@ -1,0 +1,9 @@
+.container {
+  background: #2c3e50;
+  overflow: hidden;
+  width: 360px;
+  margin: 0 auto;
+  color: #FFF;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,34 @@
+.newTask {
+  display: none;
+}
+.newTask.show {
+  display: block;
+}
+.newTask input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  background: #ecf0f1;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  width: 320px;
+  padding: 5px 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+.addNew {
+  float: right;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background: #2ecc71;
+  color: #FFF;
+  line-height: 2.8;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.addNew:hover {
+  background: #27ae60;
+}

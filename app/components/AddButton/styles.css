@@ -1,0 +1,12 @@
+.add {
+  float: right;
+  border-radius: 3px;
+  margin-right: 20px;
+  margin-top: 5px;
+  padding: 8px 10px;
+  background: #2980b9;
+}
+.add:hover {
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

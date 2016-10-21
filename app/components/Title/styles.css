@@ -1,0 +1,10 @@
+.title {
+  background: #3498db;
+}
+.h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  margin: 0px;
+}
