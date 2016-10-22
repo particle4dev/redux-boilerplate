@@ -8,3 +8,10 @@ stats.json
 .DS_Store
 npm-debug.log
 .idea
+
+# Cordova
+/platforms
+/plugins
+
+# res
+resources/signing
