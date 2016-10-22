@@ -30,10 +30,10 @@ export function* getTasks() {
 
 // Our watcher Saga: spawn a new incrementAsync task on each INCREMENT_ASYNC
 export function* watchGetTasksAsync() {
-  yield takeEvery(LOAD_TASKS, getTasks)
+  yield takeEvery(LOAD_TASKS, getTasks);
 }
 
-export function* insertNewTask({payload: { title }}) {
+export function* insertNewTask({ payload: { title } }) {
   // Select username from store
   const requestURL = `http://localhost:4000/todos`;
   const repos = yield call(request, requestURL, {
