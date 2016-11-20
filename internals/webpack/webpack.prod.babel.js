@@ -13,6 +13,8 @@ module.exports = require('./webpack.base.babel')({
 
   // Utilize long-term caching by adding content hashes (not compilation hashes) to compiled assets
   output: {
+    path: process.env.NODE_ENV === 'cordova' ? path.resolve(process.cwd(), 'www') : path.resolve(process.cwd(), 'build'),
+    publicPath: process.env.NODE_ENV === 'cordova' ? '' : '/',
     filename: '[name].[chunkhash].js',
     chunkFilename: '[name].[chunkhash].chunk.js',
   },
